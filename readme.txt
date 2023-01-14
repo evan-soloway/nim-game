@@ -1,0 +1,1 @@
+The goal is to make your opponent take the last piece. This project was meant as a tensorflow exorcise, but right now there's only RNG used to determine the computer's moves.
