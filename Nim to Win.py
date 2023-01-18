@@ -1,7 +1,7 @@
 import random
 import sys
 
-nim = open('Nim Game.html', 'w')
+nim = open('Nim Game.html', 'w', 'r')
 
 style = '''<style> body { color: blue; } h1 { color: brown;font-family: Comic Sans MS, serif; }</style>'''
 
@@ -10,6 +10,7 @@ nim.write(style)
 
 def main():
 
+     nim.open('r')
      game()
 
      body1 = gui()
@@ -18,6 +19,7 @@ def main():
      write(body1, body2)
      
      nim.write('</html>')
+     
      
 def gui():
 
